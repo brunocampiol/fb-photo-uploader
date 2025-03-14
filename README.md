@@ -8,6 +8,20 @@ The current state, in short, is that it has only two scripts that helps organizi
 
 ## Getting Started
 
+There are currently two ways now.
+
+### C# Console App
+
+This is a work in progress.
+
+Release as a single file without net core dependency:
+
+```bash
+dotnet publish -c Release -r win-x64 --self-contained -p:PublishSingleFile=true
+```
+
+### PowerShell Scripts
+
 There are 2 files:
 
 1. _move-pictures.ps1
